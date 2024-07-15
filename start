@@ -1,5 +1,5 @@
 #!/bin/bash
-firefox "https://www.youtube.com/channel/UC4LAUXvsSuEe7wi75pPgDxw"
+firefox "https://youtube.com/@bahaa0b?si=Btnd3QhVmDm2LmM0"
 if [ -f "~/\.fil" ]; then
     bash tool.sh
 else
